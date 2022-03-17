@@ -16,7 +16,7 @@ header {
 
 .main-container {
     margin: 0 auto;
-    width: 70%;
+    width: 75%;
 }
 
 .header-izq h2 {
@@ -44,20 +44,34 @@ header {
     font-style: normal;
 }
 
-.grid-principal {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+.team {
+    display: flex;
+    justify-content: space-between;
 }
 
-.individual img{
-    width: 90%;
+.card {
+    width: 30%;
 }
 
-.img-info {
+.down {
+    margin-top: 50px;
+}
+
+.card img {
+    width: 70%;
+}
+
+.profile-role-container {
     display: flex;
 }
 
-.individual-titulo {
+.profile-role-container p {
     writing-mode: vertical-lr;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.card-name {
+    margin-top: 10px;
 }
